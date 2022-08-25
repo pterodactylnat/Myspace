@@ -1,0 +1,104 @@
+header {
+    background-color: blueviolet;
+    outline-style: solid;
+    outline-color: white;
+    outline-width: 2px;
+    text-align: center;
+    color: white;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px solid blueviolet;
+    outline-color:white;
+    outline-width: 2px;
+  }
+
+#profile-picture {
+    max-width: 300px;
+    margin: 10px;
+    padding: 10px;
+    outline-style: solid;
+    background-color: blueviolet;
+    outline-color: white;
+    outline-width: 2px;
+    float: left;
+}
+
+.navbar {
+    display: inline-block;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    display: row;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+ul {
+    width: 1000px;
+    background: p;
+    padding: 0;
+    margin: 0;
+    overflow auto;
+}
+
+li {
+    width: 10%;
+    float: center;
+    background: pink;
+    color: white;
+    margin: 2.5%;
+}
+.navbar li {
+    display: inline-block;
+    }
+    
+.site {
+        width: 100%;
+    }
+    
+.mainwebsite {
+    
+        width: 60%;
+        background-color: blueviolet;
+        outline-color: white;
+        outline-width: 2px;
+        height: 400px;
+    }
+    
+.aboutme {
+    float: right;
+        background-color: blueviolet;
+        height: 400px;
+        width: 40%;
+        color: white;
+        outline-color: white;
+        outline-width: 10px;
+    }
+
+.memories {
+
+}
+
+.contactme {
+    float: bottom;
+}
+
+h2 {
+    background-color: blueviolet;
+    outline-style: solid;
+    outline-color: white;
+    outline-width: 2px;
+    color: white;  
+}
+
+@media only screen and (max-width: 600px) {
+       h1 {display: none
+    }
+    
