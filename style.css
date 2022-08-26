@@ -8,7 +8,6 @@ header {
 }
 .zeus {
     float: right
-
 }
 .section {
     display: flex;
@@ -19,7 +18,6 @@ header {
     outline-color:white;
     outline-width: 2px;
   }
-
 #profile-picture {
     max-width: 300px;
     margin: 10px;
@@ -30,7 +28,6 @@ header {
     outline-width: 2px;
     float: left;
 }
-
 .navbar {
     display: inline-block;
     background-color: blueviolet;
@@ -40,9 +37,7 @@ header {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-
 }
-
 ul {
     width: 1000px;
     background: p;
@@ -50,7 +45,6 @@ ul {
     margin: 0;
     overflow auto;
 }
-
 li {
     width: 10%;
     float: center;
@@ -61,13 +55,10 @@ li {
 .navbar li {
     display: inline-block;
     }
-    
 .site {
         width: 100%;
     }
-    g
 .mainwebsite {
-    
         width: 60%;
         background-color: blueviolet;
         outline-color: white;
@@ -81,19 +72,15 @@ li {
         outline-color: white;
         outline-width: 2px;
     }
-
 .memories {
     position: static;
 }
-
 .mywork {
     position: static;
 }
-
 .contactme {
     position: static;
 }
-
 h2 {
     background-color: blueviolet;
     outline-style: solid;
@@ -101,7 +88,6 @@ h2 {
     outline-width: 2px;
     color: white;  
 }
-
 @media only screen and (max-width: 600px) {
        h1 {display: none
     }
