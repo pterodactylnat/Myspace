@@ -1,3 +1,4 @@
+
 header {
     background-color: blueviolet;
     outline-style: solid;
@@ -6,6 +7,7 @@ header {
     text-align: center;
     color: white;
 }
+flex
 
 .section {
     display: flex;
@@ -18,7 +20,7 @@ header {
   }
 
 #profile-picture {
-    max-width: 300px;
+    max-width: 500px;
     margin: 10px;
     padding: 10px;
     outline-style: solid;
@@ -37,7 +39,6 @@ header {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-
 }
 
 ul {
@@ -55,11 +56,12 @@ li {
     color: white;
     margin: 2.5%;
 }
+
 .navbar li {
     display: inline-block;
     }
     
-.site {
+.flex-box {
         width: 100%;
     }
     
@@ -83,11 +85,15 @@ li {
     }
 
 .memories {
+    position: static;
+}
 
+.mywork {
+    position: static;
 }
 
 .contactme {
-    float: bottom;
+    position: static;
 }
 
 h2 {
